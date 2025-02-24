@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Skeleton } from "../components/ui/skeleton"
 import { Download, Facebook, Instagram, Twitter } from "lucide-react"
 import Image from "next/image"
-import { toast } from "../components/ui/use-toast"
+//import { toast } from "../components/ui/use-toast"
 
 // Mock climate issues data - in production this would come from an API
 const climateIssues = {
