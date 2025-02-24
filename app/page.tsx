@@ -114,7 +114,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100 p-4">
       <Card className="max-w-md mx-auto bg-white/80 backdrop-blur">
         <CardContent className="p-6 space-y-6">
-          <h1 className="text-2xl font-bold text-center text-green-800 mb-6">GreenGitch</h1>
+          <h1 className="text-2xl font-bold text-center text-green-800 mb-6">GreenGlitch</h1>
 
           <div className="space-y-4">
             <Select
