@@ -46,11 +46,11 @@ export default function GreenGitch() {
       setGeneratedImages(data.images)
     } catch (error) {
       console.error("Error generating images:", error)
-      toast({
+      /*toast({
         title: "Error",
         description: "Failed to generate images. Please try again.",
         variant: "destructive",
-      })
+      })*/
     } finally {
       setIsLoading(false)
     }
