@@ -1,13 +1,13 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Skeleton } from "@/components/ui/skeleton"
+import { Button } from "../components/ui/button"
+import { Card, CardContent } from "../components/ui/card"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select"
+import { Skeleton } from "../components/ui/skeleton"
 import { Download, Facebook, Instagram, Twitter } from "lucide-react"
 import Image from "next/image"
-import { toast } from "@/components/ui/use-toast"
+import { toast } from "../components/ui/use-toast"
 
 // Mock climate issues data - in production this would come from an API
 const climateIssues = {
